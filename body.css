@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+
+.image{
+    display: flex;
+    
+    height: 500px;
+    /* padding-top: 80px; */
+    background-color: #202124;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-direction: column; 
+   margin-bottom: 100px;
+}
+.imglarge{
+ padding-bottom: 0; 
+ height: 400px;  
+    
+    width: 100%;
+}
+.rowbutton{
+    display: flex;
+    width: 45%;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 27px;
+}
+.rowtext{
+    color: white;
+    font-size: 16px;
+    font-weight:bold;
+    margin-right: 15px;
+}
+.set-oder {
+    margin-left: 10px;
+    padding: 15px 50px;
+    background-color: #e4002b;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.set-oder:hover {
+    background-color: #d20707;
+}
+
+.grid-container {
+    /* display: flex; */
+    margin-top: 35px;
+    display: grid;
+    grid-row: 20px;
+    grid-column: 0px;
+    grid-template-columns: repeat(4,300px) ;
+    grid-row-gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .grid-item {
+    border-radius: 10px;
+    background-color: #f8f7f5;
+    height: 100%;
+    /* width: 60%;   */
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+  }
+
+  .middlebox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 5%;
+  }
+  .middboxrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .middtext{
+    color:#202124;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .midhr{
+    width: 70%;
+    align-items: end;
+    border: 1.3px solid rgb(198, 198, 198);
+  }
+  .gridtext{
+    color: #202124;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .all-menu-text {
+    font-family: "National 2 Regular";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    color: #202124;
+    text-align: center;
+    letter-spacing: .5px;
+    flex-direction: row;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.more-arrow-img {
+    width: 4vw !important;
+}
