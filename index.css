@@ -1,6 +1,5 @@
 #nav{
     display: flex;
-    /* margin: 12px; */
     align-items: center;
     background-color: white;
     flex-direction: column;
@@ -10,8 +9,6 @@
     position: fixed;
     top: 0;
 }
-
-
 
 body {
     font-family: Arial, sans-serif;
@@ -41,7 +38,8 @@ body {
     background-color: #e90b0b;
 }
 .seconddiv{
-    display: flex;width: 100%;flex-direction: row;
+    display: flex;
+    width: 100%;flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
